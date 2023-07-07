@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ShapDrawingDomain.Models;
 
-namespace ShapDrawingService
+namespace ShapDrawingDomain.Interface
 {
     public interface IDrawing
     {

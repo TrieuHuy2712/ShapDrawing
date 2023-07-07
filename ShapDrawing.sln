@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapDrawing", "ShapDrawing\ShapDrawing.csproj", "{4ABFE7AC-40C6-4087-8976-FC491DA7ABE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapDrawing", "ShapDrawing\ShapDrawing.csproj", "{4ABFE7AC-40C6-4087-8976-FC491DA7ABE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapDrawingService", "ShapDrawingService\ShapDrawingService.csproj", "{DAECF7A0-1C4C-4FB6-809E-ECD415685624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapDrawingDomain", "ShapDrawingService\ShapDrawingDomain.csproj", "{DAECF7A0-1C4C-4FB6-809E-ECD415685624}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

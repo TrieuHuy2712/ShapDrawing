@@ -1,4 +1,5 @@
-using ShapDrawingService;
+using ShapDrawingDomain.Interface;
+using ShapDrawingDomain.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

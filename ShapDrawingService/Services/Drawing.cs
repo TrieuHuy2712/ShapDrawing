@@ -1,6 +1,9 @@
 ﻿using System.Text;
+using ShapDrawingDomain.Enums;
+using ShapDrawingDomain.Interface;
+using ShapDrawingDomain.Models;
 
-namespace ShapDrawingService
+namespace ShapDrawingDomain.Services
 {
     public class Drawing : IDrawing
     {
@@ -59,11 +62,11 @@ namespace ShapDrawingService
         {
             if (shapeModel.ShapeType == EShape.square)
             {
-                return this.ShapeDrawing(shapeModel, shapeModel.Char);
+                return ShapeDrawing(shapeModel, shapeModel.Char);
             }
             else if (shapeModel.ShapeType == EShape.triangle)
             {
-                return this.RightTriangleDrawing(shapeModel, shapeModel.Char);
+                return RightTriangleDrawing(shapeModel, shapeModel.Char);
             }
             throw new Exception("Your input shape is not valid");
         }

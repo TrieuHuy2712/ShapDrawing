@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ShapDrawingService;
+using ShapDrawingDomain.Enums;
+using ShapDrawingDomain.Interface;
+using ShapDrawingDomain.Models;
 
 namespace ShapDrawing.Controllers
 {
