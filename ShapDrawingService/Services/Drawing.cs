@@ -60,11 +60,11 @@ namespace ShapDrawingDomain.Services
 
         public string TextDrawing(TextShapeModel shapeModel)
         {
-            if (shapeModel.ShapeType == EShape.square)
+            if (shapeModel.EShapeType == EShape.square)
             {
                 return ShapeDrawing(shapeModel, shapeModel.Char);
             }
-            else if (shapeModel.ShapeType == EShape.triangle)
+            else if (shapeModel.EShapeType == EShape.triangle)
             {
                 return RightTriangleDrawing(shapeModel, shapeModel.Char);
             }

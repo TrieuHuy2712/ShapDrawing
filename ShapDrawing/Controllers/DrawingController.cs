@@ -19,11 +19,11 @@ namespace ShapDrawing.Controllers
         [HttpPost]
         public string DrawShape([FromBody] ShapeModel shapeModel)
         {
-            if (shapeModel.ShapeType == EShape.square)
+            if (shapeModel.EShapeType == EShape.square)
             {
                 return _drawing.ShapeDrawing(shapeModel);
             }
-            else if (shapeModel.ShapeType == EShape.triangle)
+            else if (shapeModel.EShapeType == EShape.triangle)
             {
                 return _drawing.RightTriangleDrawing(shapeModel);
             }

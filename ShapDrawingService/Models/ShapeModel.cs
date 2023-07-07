@@ -12,7 +12,7 @@ namespace ShapDrawingDomain.Models
         public string? Shape { get; set; }
         public int Size { get; set; }
 
-        public EShape ShapeType
+        public EShape EShapeType
         {
             get
             {
